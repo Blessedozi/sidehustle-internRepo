@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: black;
 }
 form {
     display: flex;
@@ -29,7 +29,9 @@ input[type="submit"] {
 }
 
 fieldset {
-    padding: 0.5px 100px;
+    padding: 0.10px 100px;
+    margin: 10px;
+    color: yellowgreen;
 }
 button{
     padding: 12px 40px;
@@ -37,9 +39,18 @@ button{
     box-shadow: 2px 2px 2px1px rgb(131, 131, 219) ;
     border: px solid green;
     font-size: 2opx;
+    margin-top: 10%;
 }
 
 button:hover{
     background-color: green;
-    color: aqua;
+    color: aqua ;
 }
+    legend {
+display: block;
+margin-bottom: 20px;
+size: 10%;
+text-align: center;
+color: crimson;
+    }
+
